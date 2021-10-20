@@ -1,0 +1,77 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Mukta, sans-serif;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    background-color: #d0d4d6;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px grey;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    margin: 100px auto 10px auto;
+
+}
+
+table,
+thead {
+    box-shadow: 0 5px 10px grey;
+}
+
+th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+td {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.dugmad{
+    padding: 1rem 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.dugmici{
+    padding: 1rem 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.button{
+    margin-left: 50px;
+    border:none;
+    padding:15px;
+    color: white;
+    background-color: yellowgreen;
+}
+
+.kupi{
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: yellowgreen;
+}
